@@ -41,6 +41,7 @@ function Search({ value, onChange, children }) {
       <input id="search" type="text" value={value} onChange={onChange} />
       <h1>wewe</h1>
       <Fetch />
+    
       <div data-testid="wewe">haha</div>
     </div>
   );
